@@ -21,6 +21,9 @@ public class Main {
 
         cars.remove("BMW");
         cars.remove(2);
+        
+        int index = cars.indexOf("Ford");
+        boolean flg = cars.contains("Mazda");
 
         for(String Car : cars){
             System.out.println(Car);
