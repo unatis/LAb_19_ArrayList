@@ -25,6 +25,8 @@ public class Main {
         for(String Car : cars){
             System.out.println(Car);
         }
+        
+        cars.clear();
 
 
     }
